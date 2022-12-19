@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ОП.04 - ДЗ №2</title>
+</head>
+<body>
+  <h1>ОП.04 - ДЗ №2</h1>
+
+  <p>
+    Это файл домашнего задания №2, которое выполнил студент/студентка <strong id="student">ФИО</strong> в рамках изучения дисциплины ОП.04 - Основы алгоритмизации и программирования.
+  </p>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<form action="">
+    <h1>Задача о накоплении за учебный год</h1>
+    <label for="gameConsolePrice">Стоимость игровой приставки:</label>
+    <input type="text" id="gameConsolePrice" name="gameConsolePrice">
+    <br>
+    <br>
+    <label for="dinnerPrice">Сумма, которую мама даёт на обеды :</label>
+    <input type="text" id="dinnerPrice" name="dinnerPrice">
+    <br>
+    <br>
+    <button type="button" onClick='count(parseInt(gameConsolePrice.value), parseInt(dinnerPrice.value))'>Посчитать</button>
+    <p id='aboutResult'></p>
+  </form>
+  
